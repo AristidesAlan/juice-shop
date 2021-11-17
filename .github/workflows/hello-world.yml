@@ -36,8 +36,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   job2:
-    runs-on: Windows-latest
-    
+    runs-on: Windows-latest 
     steps:
-      - uses: actions/checout@v2
+      - uses: actions/checkout@v2
       - run: echo Hello Wordv2
